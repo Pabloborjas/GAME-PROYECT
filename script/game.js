@@ -21,8 +21,8 @@ class Game {
     this.points = 0
    
 
-    const theme = new Audio('../Sound/musica game.mp3')
-    const collisiones = new Audio('../Sound/yt1s.com - Explosion sonido efecto.mp3')
+    const theme = new Audio('./Sound/musica game.mp3')
+    const collisiones = new Audio('./Sound/yt1s.com - Explosion sonido efecto.mp3')
     collisiones.volume = 0.1;
     theme.volume = 0.1;
     this.sounds = {

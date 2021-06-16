@@ -10,7 +10,7 @@ class Background {
       this.vx = -2
   
       this.img = new Image()
-      this.img.src = '../Imagenes/fondo galaxy.jpg';
+      this.img.src = './Imagenes/fondo galaxy.jpg';
       this.img.isReady = false
       this.img.onload = () => {
         this.img.isReady = true

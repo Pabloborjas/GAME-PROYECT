@@ -14,7 +14,7 @@ class Player {
     this.height = 0
 
     this.img = new Image()
-    this.img.src = '../Imagenes/nave-azul.png'
+    this.img.src = './Imagenes/nave-azul.png'
     this.img.isReady = false;
     this.img.onload = () => {
       this.img.isReady = true

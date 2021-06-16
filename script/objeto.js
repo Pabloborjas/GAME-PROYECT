@@ -14,7 +14,7 @@ class Objetos {
     
    
         this.img = new Image()
-        this.img.src = '../Imagenes/piedra.png';
+        this.img.src = './Imagenes/piedra.png';
         this.img.isReady = false
         this.img.onload = () => {
           this.img.isReady = true
